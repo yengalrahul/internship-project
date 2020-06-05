@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Donate Now Crisis Help Homepage</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body>
+    
+    	<!-- Top menu -->
+		<nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Crisis-Help Landing page</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="top-navbar-1">
+					<ul class="nav navbar-nav navbar-right">
+					<li><a id="anchor-name" href="index.html">HOME</a></li>
+						<li><a id="anchor-name" href="#ourstory">OUR STORY</a></li>
+						<li><a id="anchor-name" href="#ourteam">OUR TEAM</a></li>
+												<li><a href="https://www.jetzyapp.com/">JETZY</a></li>
+						<li><a class="scroll-link" href="#contact">CONTACT</a></li>
+					</ul>
+					<br>
+					<a class="btn-link-6" id="myBtn" align="right">HELP US IN BUILDING CRISES HELP BY DONATING</a>
+                    <div id="myModal" class="modal">
+
+						<!-- Modal content -->
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<div class="form">
+								<label for="username">Your Name:</label><br>
+								<input type="text" id="username" name="username" value=""><br><br>
+							<div form class="form">
+								<label for="ReferredBy">Referred By:</label><br>
+							</div>
+							<div class="form">
+								<select input name="Agency" id="AgencyDetails" onchange="getValue(event.target.value)">
+									<option value="" selected="selected">Select Name </option>
+									<option value="Anastasia Struzhkin">Anastasia Struzhkin</option>
+									<option value="Angel Park">Angel Park</option>
+									<option value="Anlin Dong">Anlin Dong</option>
+									<option value="Anna Luo">Anna Luo</option>
+									<option value="Anna Magarotto">Anna Magarotto</option>
+									<option value="Arushi Charu">Arushi Charu</option>
+									<option value="Audrey McCool">Audrey McCool</option>
+									<option value="Audrey Pallar">Audrey Pallar</option>
+									<option value="Ayla Hakim">Ayla Hakim</option>
+									<option value="David Chen">David Chen</option>
+									<option value="David Crowe">David Crowe</option>
+									<option value="Divya Chunduru">Divya Chunduru</option>
+									<option value="Dorian Brochier">Dorian Brochier</option>
+									<option value="Jeremy Horn">Jeremy Horn</option>
+									<option value="Joseph Boykin">JosephBoykin</option>
+									<option value="Kiera Brown">Kiera Brown</option>
+									<option value="Leighan Kim">Leighan Kim</option>
+									<option value="Lina Garzon">Lina Garzon</option>
+									<option value="Lipali Patnaik">Lipali Patnaik</option>
+									<option value="Lucas Liberman">Lucas Liberman</option>
+									<option value="Luke Mac Millan">Luke Mac Millan</option>
+									<option value="Matthew Giltner">Matthew Giltner</option>
+									<option value="Morasa Safi">Morasa Safi</option>
+									<option value="Natalie Sangkagalo">Natalie Sangkagalo</option>
+									<option value="Nicole Williams">NicoleWilliams</option>
+									<option value="Patrycja Baczek">Patrycja Baczek</option>
+									<option value="Rahul Yengal">Rahul Yengal</option>
+									<option value="Rosie Nguyen">Rosiem Nguyen</option>
+									<option value="Rebecca Schracks">Rebecca Schracks</option>
+									<option value="Sai Smruthi ">Sai Smruthi </option>
+									<option value="Rebecca Schracks">Rebecca Schracks</option>
+									<option value="Sam Niles">Sam Niles</option>
+									<option value="Samuel Hilal">Samuel Hilal</option>
+									<option value="Sofia Hiller">Sofia Hiller</option>
+									<option value="Tanner Bahnck">Tanner Bahnck</option>
+									<option value="TylerSmall">Tyler Small</option>
+									<option value="Vanessa Jaramillo">Vanessa Jaramillo</option>
+									<option value="Tanner Bahnck">Tanner Bahnck</option>
+									<option value="Vanisha Harjani">Vanisha Harjani</option>
+									<option value=""></option>
+								</select>
+							</div>
+							<div class="form">
+								<div id="result"></div>
+							</div><br><br>
+							<div class="form">
+								<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GXDD5CB3K7ZT4&source=url"
+									class="btn-link-5" input type="submit" id="submitBtn">DONATE NOW</a>
+								<!-- <button 
+								 class="btn-link-6" input type="submit" id="submitBtn">DONATE NOW</button>-->
+							</div>
+							</form>
+						</div>
+	
+					</div>
+
+				</div>
+			</div>
+		</nav>
+
+        <!-- Top content -->
+        <div class="top-content">
+        	<div class="container">
+        	
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 text wow fadeInLeft">
+						<h1>WELCOME TO CRISIS HELP!</h1>
+						<div class="description">
+							<p class="medium-paragraph">
+Crisis-Help is a dedicated user to user platform to exchange useful information for the crises resulting from COVID-19
+							</p>
+						</div>
+					</div>
+				</div
+				
+				<div class="row">
+					
+					<div class="col-sm-5 list wow fadeInUp">
+						<div class="list-box">
+							<div class="list-box-icon"><i class="fa fa-tablet"></i></div>
+							<h3>REAL TIME INFORMATION</h3>
+							<div class="list-box-description">People can easily ask/share about what is happening right now in an area.</div>
+						</div>
+						<div class="list-box">
+							<div class="list-box-icon"><i class="fa fa-lightbulb-o"></i></div>
+							<h3>REVIEW SYSTEM</h3>
+							<div class="list-box-description">Ability to build a review system quickly to rate the content.</div>
+						</div>
+						<div class="list-box">
+							<div class="list-box-icon"><i class="fa fa-css3"></i></div>
+							<h3>NEAR-ME-MAP-VIEW</h3>
+							<div class="list-box-description">Get real time updates from people who may be going through similar situations as you.</div>
+						</div>
+						
+					</div>
+
+					<div class="col-sm-7">
+					<a href="https://www.jetzyapp.com/" class="btn-link-7"  align="right" >Click Here For Our other Companies</a>
+				
+						<div class="mobilescreen">
+							<img src="assets/img/new1.jpg" alt="mobilescreen" height="500px" width="500px">
+						</div>
+					</div>
+				</div>
+				<br>
+				     
+				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GXDD5CB3K7ZT4&source=url" 
+				class="btn-link-5">Donate Now</a>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="features-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 features section-description wow fadeIn">
+	                    <h2>SUPPORT US IN BUILDING CRISIS HELP!</h2>
+	                    <div class="divider-1"><div class="line"></div></div>
+	                    <p class="medium-paragraph">We need your help for our crowdfunding campaign to build a real time, information exchange portal called Crisis-Help which is a dedicated information exchange portal for people to ask/share useful information about the issues emerging from corona crisis. Your contribution will not only help create a platform that millions of people can potentially use but also create jobs for people who are severely affected because of the corona crisis.</p>
+	                </div>
+					<div class="about-us-photo">
+		                	<img src="assets/img/secoundpage/file1.png" alt="tim-brown" data-at2x="assets/img/secoundpage/file1.jpg">
+		             </div>
+				</div>
+				<h2>WHY CRISIS HELP?</h2>
+				<div class="divider-1"><div class="line"></div></div>
+				<p class="medium-paragraph">We feel there is a need for a community based platform like Crisis-Help because while national/statewide news is accessible (even if vastly misleading), there is a lot of confusion and authentic information pertaining to an individual city or suburb is missing. How do we know what's happening with our neighbors? Who else is going through similar issues as we are in our lives so we can exchange relevant info and resources with each other? Who are the people in need or have lost their jobs for example? Where to access and share useful employment information that we may get  that can benefit others ? What stores have relevant stuff that we need in our neighborhood and what are the best times to visit them?</p>
+			</div>
+			<div class="about-us-photo">
+		                	<img src="assets/img/secoundpage/file2.png" alt="tim-brown" data-at2x="assets/img/secoundpage/file1.jpg">
+		                </div>
+		</div>
+
+		<h2>THE GOALS OF CRISIS HELP</h2>
+				<div class="divider-1"><div class="line"></div></div>
+				<p class="medium-paragraph">Crisis-Help is dedicated towards building communities of discussion where people can become a resource for each other for relevant updates and logistical direction during the crisis. All information will be neatly organized by topics and will also show on the map by location (please see screens below). People will be able to share content and add any topics that they like, ranging from health to employment and access resources and updates about crises for their needs.</p>
+			</div>
+			<div class="about-us-photo">
+		                	<img src="assets/img/secoundpage/file3.png" alt="tim-brown" data-at2x="assets/img/secoundpage/file1.jpg">
+		    </div>
+		</div>
+	            
+
+		<!-- More features -->
+        <div class="more-features-container section-container section-container-gray-bg">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 more-features section-description wow fadeIn">
+	                    <h2>EXAMPLES OF TOPICS:</h2>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-7 more-features-box wow fadeInLeft">
+	                    <div class="more-features-box-text">
+	                    	
+						  <h3><li>Physical and Mental Health Tips</h3>
+			              	<h3><li>Income, Job search, Small Business issues</h3>
+							<h3><li>COVID-19 Vaccine Research</h3>
+							<h3><li> and Essentials Item Availability</h3>
+							<h3><li>Crime Watch & Reporting</h3>
+							<h3><li>Students Education</h3>
+							<h3><li>Preparing for life after Quarantine</h3>
+							<h3><li>Personal Protective Equipment (PPE)</h3>
+							<h3><li>Physical and Mental Health Tips</h3>
+							<h3><li>Income, Job search, Small Business issues</h3>
+	                    	
+	                    </div> 
+	                    
+ 	                </div>
+					<div class="row">					
+					
+	                <div class="col-sm-5 more-features-box wow fadeInUp">
+	                    <img src="assets/img/devices/phone3.png" alt="pc">
+	                </div>
+	            </div>
+				
+	        </div>
+        </div>
+        
+        <!-- Great support -->
+       
+        <!-- How it works -->
+        <div class="how-it-works-container section-container section-container-image-bg">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 how-it-works section-description wow fadeIn">
+	                    <h2>BENEFITS OF CRISIS HELP TECHNOLOGY</h2>
+	                </div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInUp">
+	                    <h3><span class="how-it-works-number">1</span> NEAR-ME-MAP-VIEW</h3>
+	                    <p>People can easily ask/share about what is happening right now in an area</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInDown">
+	                    <h3><span class="how-it-works-number">2</span> REAL TIME INFORMATION</h3>
+	                    <p>
+
+Get real time updates from people who may be going through similar situations as you.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInUp">
+	                    <h3><span class="how-it-works-number">3</span> REVIEW SYSTEM</h3>
+	                    <p>Ability to build a review system quickly to rate the content</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInDown">
+	                    <h3><span class="how-it-works-number">4</span> PRIORITIZED INFORMATION</h3>
+	                    <p>Prioritized information and ability to build quick color-coding to show whether a post is critical, positive, negative, etc.</p>
+                    </div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-sm-12 section-bottom-button wow fadeInUp">
+                        <a class="btn-link-5" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GXDD5CB3K7ZT4&source=url" class="fa fa-angle-right"> Donate Now</a>
+	            	</div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- Pricing -->
+         <div class="call-to-action-container section-container">
+	        <div class="container">
+	            <div class="row">
+	               				
+					<div class="col-sm-5 list wow fadeInUp">
+					<br>
+					<br>
+	                  <h1>YOU WILL BE ABLE TO CONNECT WITH CRISIS APP ON ANY DEVICE</h1>
+	                    <div class="divider-1"><div class="line"></div></div>
+	                    <p>
+	                    	Take crisis app wherever you go! It will be available on all mobile and tablet devices!</p>
+</div>
+					<br>
+					<div class="col-sm-7 video">
+						<div class="embed-responsive embed-responsive-16by9">
+							<img src="assets/img/devices/phone4.png" alt="Smiley face" height="350" width="400">
+						</div>
+					</div>
+					
+	           
+	            </div>
+	        </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials-container section-container section-container-image-bg">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 testimonials section-description wow fadeIn">
+	                	<h2>Our Work Life</h2>
+	                	<div class="divider-1"><div class="line"></div></div>
+	                    <p class="medium-paragraph">Take a look below to read what our clients have said about us:</p>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-10 col-sm-offset-1 testimonial-list wow fadeInUp">
+	                	<div role="tabpanel">
+	                		<!-- Tab panes -->
+	                		<div class="tab-content">
+	                			<div role="tabpanel" class="tab-pane fade in active" id="tab1">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/1.jpg" alt="t1" data-at2x="assets/img/testimonials/1.jpg">
+										 <p>Fathie</p>
+										 <p>Data Analyst</p>
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <p>
+		                                	"Crisis Help is very useful to me. It enables me to check all information about COVID-19 around me in one platform. I do not have to gather information through many places here and there."<br>
+		                                	
+		                                </p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab2">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/2.jpg" alt="t2" data-at2x="assets/img/testimonials/2.jpg">
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <p>
+		                                	"I like the website Crisis Help. I feel a sense a community.  I can share information happening in my community that may help someone else"<br>
+		                                	<a href="#">Minim Veniam, nostrud.com</a>
+		                                </p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab3">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/3.jpg" alt="t3" data-at2x="assets/img/testimonials/3.jpg">
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <p>
+		                                	"This website offers so much valuable information for people who are in need. I will definitely recommend this site to my friends."<br>
+		                                	<a href="#">Lorem Ipsum, dolor.co.uk</a>
+		                                </p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab4">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/4.jpg" alt="t4" data-at2x="assets/img/testimonials/4.jpg">
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <p>
+		                                	"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip 
+		                                	ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
+		                                	lobortis nisl ut aliquip ex ea commodo consequat..."<br>
+		                                	<a href="#">Minim Veniam, nostrud.com</a>
+		                                </p>
+	                                </div>
+	                			</div>
+	                		</div>
+	                		<!-- Nav tabs -->
+	                		<ul class="nav nav-tabs" role="tablist">
+	                			<li role="presentation" class="active">
+	                				<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                		</ul>
+	                	</div>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+
+		<!-- Call to action -->
+        <div class="call-to-action-container">
+	        <div class="container">
+	            <div class="row">
+	               				
+					<div class="col-sm-5 list wow fadeInUp">
+	                    <h2><a name="ourstory"></a> OUR STORY</h2>
+	                    <div class="divider-1"><div class="line"></div></div>
+	                    <p class="p1">
+	                    	My name is Shama Zehra, and I’ve been an entrepreneur in Consumer Technology, Finance, and Retail space for 28 years, having started as one of the youngest women entrepreneurs in Pakistan.</p>
+
+
+ <p class="p2">Despite the overwhelming access we have to social media platforms, news sources, blogs, websites etc, it is very confusing and difficult to find relevant information when a crisis hits and we saw that with Covid 19 all our communication channels failed to give us relevant location-wise info about what was going on. We were left with limited or no information and knowledge of some of the most important things regarding the crisis and where to seek help</p>
+<p class="p3">Crisis-Help will be dedicated towards building communities of discussion where people can become a resource for each other and act as a source of relevant updates and logistical direction during the crisis. All information will be neatly organized by topics and will also show on the map by location. (please see screens). People will be able to share content ranging from health to employment and access resources and updates about crises for their needs. They will also have the ability to start a new topic of discussion as per their interest. </p>
+​<p class="p4">Our team & advisors include Alums & Executives of Google, Microsoft, Amazon, Facebook & Goldman Sachs</p>
+ 
+	                    </p>
+	                </div>
+					
+						<img src="assets/img/about/1.png" style="padding-top: 150px;">
+									
+	            </div>
+	            
+	        </div>
+        </div>
+
+		<!-- About us -->
+        <div class="about-us-container section-container section-container-image-bg">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 about-us section-description wow fadeIn">
+	                    <h2><h2><a name="ourteam"></a>THE CRISIS HELP TEAM</h2>
+	                    <div class="divider-1"><div class="line"></div></div>
+	                    	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-4 about-us-box wow fadeInDown">
+													<div class="about-us-photo">
+								<img src="assets/img/about/shama.png" alt="tim-brown" data-at2x="assets/img/about/2.jpg">
+								<div class="about-us-role">Social Entrepreneur</div>
+							</div>
+													
+							<h3>Shama Zehra</h3>
+						  <ul>
+	                    <li>25+ yrs of business development & entrepreneurship experience in technology, financial services & retail </li>
+<li>Featured on cover of Forbes Entrepreneurs and by Nasdaq, Crain’s, Huff Post, WeWork, & many others</li>
+
+<li>Alum of Goldman Sachs and Morgan Stanley</li>
+
+<li>Double MBA, Finance/ Strategy (Michigan Ross) & International Business (IBA)</li></ul>
+	                    
+	                </div>
+	                <div class="col-sm-4 about-us-box wow fadeInDown">
+					 <div class="about-us-photo">
+		                	<img src="assets/img/about/keith.jfif" alt="tim-brown" data-at2x="assets/img/about/2.jpg">
+		                	<div class="about-us-role">Technology Architect</div>
+		                </div>
+						
+						
+	                    <h3>KEITH BRINGS</h3>
+	                  <ul> 
+ 
+
+<li>22+  years experience.</li>
+
+<li>Deep expertise in software development and performance Optimization of high volume platforms.</li>
+
+<li>Javascript, C#, C/C++, Objective-C, PHP, CSS and JS suturing,  MySQL optimization and database design. </li>
+
+ <li>Former Microsoft.</li></ul>
+ <br>
+	                  
+	                </div>
+	                <div class="col-sm-4 about-us-box wow fadeInUp">
+							                <div class="about-us-photo">
+		                	<img src="assets/img/about/3.jpeg" alt="sarah-red" data-at2x="assets/img/about/3.jpg">
+		                	<div class="about-us-role">FrontEnd Developer</div>
+		                </div>
+						
+						
+	                    <h3>PANKAJ KAINTHLA</h3>
+							          <br>          
+<ul>
+<li>12 years experience in front end mobile dev</li>
+
+ <li>IOS Android expertise</li>
+<li> Android expertise</li>
+
+ <li>Database Engineer</li>
+
+<li> Experienced in Objective-C , React native, Java etc.</li></ul>
+<br><br>
+
+
+	                   
+	                </div>
+	            </div>
+	        </div>
+        </div>
+		<div class="call-to-action-container section-container">
+	        <div class="container">
+	            <div class="row">
+	               				<h2>PRESS & MEDIA</h2>
+					<div class="col-sm-5 list wow fadeInUp">
+                    <br>
+					<a href="https://www.forbes.com/sites/hollieslade/2014/08/05/from-a-clothing-business-in-pakistan-to-a-wall-street-firm-lessons-from-a-serial-female-entrepreneur/#6443b4565e37">
+         <img alt="Frobes" src="assets/img/secoundpage/frobes.png"
+         width="550" height="550">
+      </a>
+	                </div>
+										
+					<div class="col-sm-7 video">
+						<!--<div class="embed-responsive embed-responsive-16by9">
+							<img src="assets/img/shamacoverpic.png" alt="Smiley face" height="400" width="400">
+						</div>-->
+
+	  <br>
+	  	  <a href="https://www.facebook.com/NasdaqCenter/videos/vb.1620130394920348/1722286574704729/?type=2&theater">
+         <img alt="Frobes" src="assets/img/secoundpage/nasdec.png"
+         width="400" height="550">
+      </a>
+	  
+					</div>
+					<br>
+					
+									
+	            </div>
+	            
+	        </div>
+        </div>
+			<br>
+			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GXDD5CB3K7ZT4&source=url" class="btn-link-5">Donate Now</a>
+        </div>
+		<!-- Contact us -->
+		<div class="contact-container section-container">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3 c-form-1-box wow fadeInUp">
+	
+						<div class="c-form-1-top">
+							<div class="c-form-1-top-left">
+								<h3>Contact Us</h3>
+								<p>Fill in the form below to contact us:</p>
+							</div>
+							<div class="c-form-1-top-right">
+								<i class="fa fa-paper-plane"></i>
+							</div>
+						</div>
+						<div class="c-form-1-bottom">
+							<form onsubmit="onContactFormSubmit()">
+								<div class="form-group">
+									<label for="c-form-1-email">Email: <span class="c-form-1-error"></span></label>
+									<input type="email" name="email" id="email" placeholder="Your email address..."
+										class="c-form-1-email form-control" id="c-form-1-email" required>
+								</div>
+								<div class="form-group" >
+									<label for="c-form-1-subject">Subject: <span class="c-form-1-error"></span></label>
+									<input type="text" name="subject" id="subject" placeholder="Message subject..."
+										class="c-form-1-subject form-control" id="c-form-1-subject" required>
+								</div>
+								<div class="form-group" >
+									<label for="c-form-1-message">Message: <span class="c-form-1-error"></span></label>
+									<textarea name="message" id="message" placeholder="Message text..."
+										class="c-form-1-message form-control" id="c-form-1-message" required></textarea>
+								</div>
+								<button type="submit" class="btn" id="contact_button">Send Message</button>
+							</form>
+						</div>
+	
+					</div>
+				</div>
+			</div>
+			<br>
+			<a href="https://www.paypal.com/donate/?token=SKS-HRQBTuh39hzC2Cl0iZ9uD-ml1-EYcnjilQXhoLvKinhiPjZ7_9NnCBQTrodtSbsATG&country.x=US&locale.x=US"
+				class="btn-link-5">Donate Now</a>
+		</div>
+	
+
+        <!-- Footer -->
+        <footer>
+	        <div class="container">
+	        	<div class="row">
+	        		<div class="col-sm-4 footer-about wow fadeInUp">
+	        			<h3>About Us</h3>
+	        			<p>
+	        				We are a young company always looking for new and creative ideas to help you with our products in your everyday work.
+	        				
+	        			</p>
+	        			<p>
+                    		<a class="scroll-link" href="#about-us">Our Team</a>
+                    	</p>
+                    </div>
+	        		<div class="col-sm-4 footer-contact-info wow fadeInDown">
+	        			<h3>Contact Info</h3> 	<!--<p><i class="fa fa-map-marker"></i> Newyork</p>
+	                	<p><i class="fa fa-phone"></i> Phone: (0039) 333 12 68 347</p>-->
+	                	<p><i class="fa fa-envelope"></i> Email: <a href="mailto:hr@jetzyapp.com">contact@jetzyapp.com</a></p>
+	                	</div>
+                    <div class="col-sm-4 footer-social wow fadeInUp">
+                    	<h3>We're Social</h3>
+                    	<p>
+                    		Please Check out our Social Media Accounts:
+                    	</p>
+                    	<p>
+	                    	<a href="https://www.facebook.com/crisishelp2020/"><i class="fa fa-facebook"></i></a> 
+							<a href="https://twitter.com/crisishelp2020"><i class="fa fa-twitter"></i></a> 
+							<a href="#"><i class="fa fa-google-plus"></i></a> 
+							<a href="https://www.instagram.com/crisishelp2020/"><i class="fa fa-instagram"></i></a> 
+							<a href="#"><i class="fa fa-pinterest"></i></a>
+						</p>
+                    </div>
+	            </div>
+	            <div class="row">
+           			<div class="col-sm-5 footer-copyright">
+                    	&copy; <a href="http://www.crisis-help.com"> 2020 Crisis Help SZ Global, Inc., Jetzy</a>
+                    </div>
+           			<div class="col-sm-7 footer-menu">
+                    	<ul>
+                    		<li>Go to:</li>
+                    		<li><a class="scroll-link" href="#top-content">TOP</a></li>
+							<li><a class="scroll-link" href="#features">OUR STORY</a></li>
+							
+							<li><a class="scroll-link" href="#pricing">CONTACT</a></li>
+							
+						</ul>
+                    </div>
+           		</div>
+	        </div>
+        </footer>
+
+		<!-- MODAL: Terms and Conditions -->
+        <div class="modal fade" id="modal-terms" tabindex="-1" role="dialog" aria-labelledby="modal-terms-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        				<h2 class="modal-title" id="modal-terms-label">Terms and Conditions</h2>
+        			</div>
+        			<div class="modal-body">
+        				<p>Please read carefully the terms and conditions for using our product below:</p>
+        				<h3>1. Dolor sit amet</h3>
+        				<p>
+	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+	                    </p>
+	                    <ul>
+	                    	<li>Easy To Use</li>
+	                    	<li>Awesome Design</li>
+	                    	<li>Cloud Based</li>
+	                    </ul>
+	                    <p>
+	                    	Ut wisi enim ad minim veniam, <a href="#">quis nostrud exerci tation</a> ullamcorper suscipit lobortis nisl ut aliquip ex ea 
+	                    	commodo consequat nostrud tation.
+	                    </p>
+	                    <h3>2. Sed do eiusmod</h3>
+	                    <p>
+	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+	                    </p>
+	                    <h3>3. Nostrud exerci tation</h3>
+	                    <p>
+	                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea 
+	                    	commodo consequat nostrud tation.
+	                    </p>
+	                    <p>
+	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+	                    </p>
+        			</div>
+        			<div class="modal-footer">
+        				<button type="button" class="btn" data-dismiss="modal">I Read it &amp; I Agree</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+
+	<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+	<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-analytics.js"></script>
+
+	<!-- Add Firebase products that you want to use -->
+	<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-firestore.js"></script>
+		<script src="assets/js/scripts.js"></script>
+		
+		
+	
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
+</html>
